@@ -1,16 +1,42 @@
+*{
+	font-family: Arial;
+}
+
+p{
+	width: 30%;
+	margin-left: 30px;
+}
 .outer-lightbox{
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(60,0,0,.2);
 	position: absolute;
 	width: 100%;
 	height:100%;
 	top: 0;
 	left: 0;
 	display: none;
+
+}
+.inner-lightbox{
+	padding: 40px;
 }
 
 img {
 	display:block;
-	width: 500px;
+	width: 370px;
 	margin-left: auto;
 	margin-right: auto;
+	border: 2px solid pink;
+}
+.my-link {
+margin-left: 50px;
+}
+.my-link2 {
+	width: 30%;
+	height: 200px;
+	float:right;
+	clear: both;
+}
+.my-link2 a{
+
+
 }
